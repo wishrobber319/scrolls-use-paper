@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+    <packageId>wishRobber.scrollsusepaper</packageId>
+    <name>RimWorld of Magic Scrolls Use Paper</name>
+    <author>wishRobber</author>
+    <description>Moves A RimWorld of Magic's scroll, book and skill crafting off its own magic printer and onto Medieval Overhaul's book scribe table. Each recipe now costs paper instead of cloth/devilstrand, the old magic printer is removed, and the Scribing research now requires the Presser.</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Torann.ARimworldOfMagic</packageId>
+            <displayName>A RimWorld of Magic</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/1201382956</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>DankPyon.Medieval.Overhaul</packageId>
+            <displayName>Medieval Overhaul</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3219596926</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Torann.ARimworldOfMagic</li>
+        <li>Kure.AROM</li>
+        <li>DankPyon.Medieval.Overhaul</li>
+    </loadAfter>
+</ModMetaData>
