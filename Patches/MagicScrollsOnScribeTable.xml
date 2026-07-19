@@ -865,6 +865,14 @@
                         <li>DankPyon_Presser</li>
                     </value>
                 </li>
+
+                <!-- #5: cheapen the Scribing research to fit the medieval tree: 1500 -> 500. -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ResearchProjectDef[defName="TM_MagicScribing"]/baseCost</xpath>
+                    <value>
+                        <baseCost>500</baseCost>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>
