@@ -814,7 +814,10 @@
                      the finished-scroll recipes, these carry no research prerequisite of their own - in
                      base RimWorld of Magic they were gated only by the Magic Printer (which needs
                      TM_MagicScribing to build). Now that they live on the always-available scribe table,
-                     add the prerequisite explicitly so they match the rest of the system. -->
+                     add the prerequisite explicitly so they match the rest of the system.
+                     The Unfinished Martial Book (UnfinishedMartial) also gets TM_AdvancedScribing, to
+                     match the Unfinished Arcane Book (UnfinishedAdvArcane) which ships with that gate -
+                     base RimWorld of Magic just forgot to put it on the martial one. -->
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="UnfinishedArcane"]/recipeMaker</xpath>
                     <value>
@@ -836,6 +839,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>TM_MagicScribing</li>
+                            <li>TM_AdvancedScribing</li>
                         </researchPrerequisites>
                     </value>
                 </li>
