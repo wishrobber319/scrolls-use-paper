@@ -1,0 +1,9 @@
+[b]Scribe magic scrolls on paper, at the scribe table.[/b] Moves A RimWorld of Magic's scroll, book and skill crafting off its industrial magic printer and onto Medieval Overhaul's scribe table, using paper instead of cloth.
+
+[hr][/hr]
+[b]What's inside[/b]
+[list]
+[*][b]Crafted at the scribe table.[/b] Scrolls, books and skill tomes are made on the medieval bench.
+[*][b]Paper, not cloth.[/b] Recipes use paper for a cohesive medieval-magic workflow.
+[*][b]Requires Medieval Overhaul and A RimWorld of Magic.[/b]
+[/list]
